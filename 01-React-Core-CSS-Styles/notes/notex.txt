@@ -1,0 +1,12 @@
+<div className="App">
+    <h2>Welcome to App Component</h2>
+	<br>
+</div>
+
+-> class -> className
+-> for -> forName
+-> <br> -> <br/>
+-> <hr> -> <hr/>
+-> <img src=""> -> <img src=""/>
+-> <input type="text"> ->  <input type="text"/>
+-> <a href="">abc</a>

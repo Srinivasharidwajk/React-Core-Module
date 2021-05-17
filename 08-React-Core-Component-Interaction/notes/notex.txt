@@ -1,0 +1,16 @@
+1. Parent should have a function to receive the data from child
+
+    receiveData = (data:string):void => {
+        this.setState({
+            ...this.state,
+            cMessage : data
+        });
+    };
+
+2. configure this parent function "receiveData" to child with props
+
+	<ChildComp sendData={this.receiveData}/>
+
+3. inside the child component, call the "Prop" and send Data
+
+   this.props.sendData(this.state.cText);

@@ -1,0 +1,14 @@
+React with server Connection
+----------------------------
+https://github.com/axios/axios
+
+React -> Library
+-----------------
+server Connection -> axios -> promised based HTTP Library
+
+npm install axios @types/axios
+
+React Routing
+-------------
+
+npm install react-router-dom @types/react-router-dom

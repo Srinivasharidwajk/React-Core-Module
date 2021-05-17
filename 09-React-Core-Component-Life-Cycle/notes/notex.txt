@@ -1,0 +1,12 @@
+React Component with Life-Cycle methods
+---------------------------
+-> Component Object Created -> constructor() -> state initialization
+-> Component is rendered -> render() -> design + state display
+-> Component is Loaded in DOM -> componentDidMount() -> for SERVER API Calls
+-> Component is Updated -> componentWillUpdate() -> to update the state for every condition
+-> Component is Removed from DOM -> componentWillUnmount() -> for clear the state information
+
+
+JavaScript -> DOM <script> -> end of <body>
+
+Digital Watch ->

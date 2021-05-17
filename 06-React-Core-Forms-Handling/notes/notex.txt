@@ -1,0 +1,31 @@
+Bootstrap : 5
+-------------
+npm install bootstrap@next
+
+MdBootstrap
+-----------
+npm install mdbootstrap
+
+Font Awesome Icons
+------------------
+npm i @fortawesome/fontawesome-free
+
+Configure the CSS Files with index.tsx file
+-------------------------------------------
+// Bootstrap + MDBootstrap + Font Awesome css files
+import '@fortawesome/fontawesome-free/css/all.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import 'mdbootstrap/css/mdb.css';
+
+Configure the Online CSS Files with index.html file
+----------------------------------------------------
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+
+Props -> transfer a data from parent to child
+      -> read-only
+	  -> this.props.name
+
+State -> component maintains its own data
+      -> updateble
+	  -> this.state.name
